@@ -1,4 +1,4 @@
-"user server"
+"use server"
 
 // user server marks  all export functions as server actions
 
