@@ -1,7 +1,7 @@
 
 import {Document,model,models,Schema } from "mongoose";
 
-import { Types } from "mongoose";
+
 
 //for type safety we need to make interface
 export interface IImage extends Document {

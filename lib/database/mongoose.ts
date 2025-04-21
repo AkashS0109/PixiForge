@@ -8,7 +8,7 @@ interface MongooseConnection {
 }
 
 // Ensure the global object has a cached connection
-let globalWithMongoose = global as typeof global & { mongoose?: MongooseConnection };
+const globalWithMongoose = global as typeof global & { mongoose?: MongooseConnection };
 
 if (!globalWithMongoose.mongoose) {
   globalWithMongoose.mongoose = { conn: null, promise: null };

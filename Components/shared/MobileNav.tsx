@@ -3,9 +3,6 @@ import React from 'react'
 import {
     Sheet,
     SheetContent,
-    SheetDescription,
-    SheetHeader,
-    SheetTitle,
     SheetTrigger,
   } from "@/Components/ui/sheet"
 import Link from 'next/link'
